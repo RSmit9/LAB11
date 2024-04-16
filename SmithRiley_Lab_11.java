@@ -46,7 +46,7 @@ import java.io.File;
                     }
                 private void listFiles(File directory)
                     {
-                        fileListTextArea.setText(""); // Clear previous content
+                        fileListTextArea.setText("");
                         listFilesRecursive(directory);
                     }
                 private void listFilesRecursive(File directory)
@@ -58,7 +58,7 @@ import java.io.File;
                                 {
                                     if (file.isDirectory())
                                         {
-                                            listFilesRecursive(file); // Recursively call for subdirectories
+                                            listFilesRecursive(file); 
                                         }
                                          else
                                             {
